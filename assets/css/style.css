@@ -103,14 +103,61 @@ h6 {
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    background: #47b2e4;
+    background: #85DC6D;
     color: #fff;
     transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-    background: #209dd8;
+    background: #9cff80;
     color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+
+#topbar {
+    background: #46923C;
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+}
+
+#topbar .contact-info a {
+    line-height: 1;
+    transition: 0.3s;
+    color: #fff;
+}
+
+#topbar .contact-info a:hover {
+    color: #428bca;
+}
+
+#topbar .contact-info i {
+    color: #fff;
+    padding: 4px;
+}
+
+
+/*
+#topbar .contact-info .icofont-phone {
+    padding-left: 20px;
+    margin-left: 10px;
+}*/
+
+#topbar .social-links a {
+    color: #fff;
+    padding: 4px 12px;
+    display: inline-block;
+    line-height: 1px;
+    transition: 0.3s;
+}
+
+#topbar .social-links a:hover {
+    color: #428bca;
 }
 
 
@@ -119,14 +166,16 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
+    height: 70px;
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
+    background: #46923C;
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-    background: rgba(40, 58, 90, 0.9);
+    background: #46923C;
 }
 
 #header .logo {
@@ -280,12 +329,12 @@ h6 {
     transition: 0.3s;
     font-size: 14px;
     display: inline-block;
-    border: 2px solid #47b2e4;
+    border: 2px solid #ffffff;
     font-weight: 600;
 }
 
 .get-started-btn:hover {
-    background: #31a9e1;
+    background: #005bd1;
     color: #fff;
 }
 
@@ -415,11 +464,12 @@ h6 {
 #hero {
     width: 100%;
     height: 80vh;
-    background: #37517e;
+    /*Color de fondo donde podría estar el CARROUSEL*/
+    background: #46923C;
 }
 
 #hero .container {
-    padding-top: 72px;
+    padding-top: 82px;
 }
 
 #hero h1 {
@@ -447,7 +497,7 @@ h6 {
     transition: 0.5s;
     margin: 10px 0 0 0;
     color: #fff;
-    background: #47b2e4;
+    background: #005bd1;
 }
 
 #hero .btn-get-started:hover {
@@ -479,6 +529,68 @@ h6 {
 
 #hero .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+
+/*======== TARJETA DE ALCALDE=========*/
+
+#hero .member {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.5s;
+}
+
+#hero .member .pic {
+    overflow: hidden;
+    width: 110px;
+    /*height: 70%;*/
+    border-radius: 50%;
+}
+
+#hero .member .pic img {
+    transition: ease-in-out 0.3s;
+}
+
+#hero .member:hover {
+    transform: translateY(-10px);
+}
+
+#hero .member .member-info {
+    padding-left: 30px;
+}
+
+#hero .member h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #37517e;
+}
+
+#hero .member span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+#hero .member span::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #cbd6e9;
+    bottom: 0;
+    left: 0;
+}
+
+#hero .member p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
 }
 
 @media (max-width: 991px) {
@@ -703,7 +815,7 @@ section {
 --------------------------------------------------------------*/
 
 .why-us .content {
-    padding: 60px 100px 0 100px;
+    padding: 60px 60px 0 100px;
 }
 
 .why-us .content h3 {
@@ -822,6 +934,97 @@ section {
     .why-us .img {
         min-height: 200px;
     }
+}
+
+
+/*--------------------------------------------------------------
+# HISTORIA DE CARABAYA
+--------------------------------------------------------------*/
+
+.historia .row {
+    border-top: 3px solid #85DC6D;
+    border-bottom: 3px solid #85DC6D;
+    padding: 30px;
+    background: #fff;
+    margin-left: 2px;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.historia .content h3 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.historia .content img {
+    border: 0;
+    border-radius: 4%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.historia .content #img1 {
+    width: 25%;
+    height: 25%;
+    margin-right: 20px;
+    float: left;
+}
+
+.historia .content #img2 {
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.historia .content p {
+    text-align: justify;
+}
+
+.historia .content p:last-child {
+    margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+# HIMNO A CARABAYA
+--------------------------------------------------------------*/
+
+.himno .row {
+    border-top: 3px solid #85DC6D;
+    border-bottom: 3px solid #85DC6D;
+    padding: 30px;
+    background: #fff;
+    margin-left: 2px;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.himno .estrofas {
+    border-top: none;
+    border-bottom: none;
+    padding: 10px;
+    background: #fff;
+    margin-left: 2px;
+    width: 100%;
+    box-shadow: none;
+}
+
+.himno .content h3 {
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+
+.himno .content p {
+    text-align: center;
+}
+
+.himno .content img {
+    border: 0;
+    border-radius: 4%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
 }
 
 
@@ -1086,6 +1289,7 @@ section {
 
 /*--------------------------------------------------------------
 # Team
+# DISTRITOS
 --------------------------------------------------------------*/
 
 .team .member {
@@ -1184,15 +1388,20 @@ section {
 
 
 /*--------------------------------------------------------------
+# VISIÓN Y MISIÓN
 # Pricing
 --------------------------------------------------------------*/
 
+.pricing {
+    background-color: #f3f4fa;
+}
+
 .pricing .row {
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .pricing .box {
-    padding: 60px 40px;
+    padding: 20px 40px;
     box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
     background: #fff;
     height: 100%;
@@ -1200,114 +1409,25 @@ section {
     border-radius: 5px;
 }
 
-.pricing h3 {
-    font-weight: 500;
-    margin-bottom: 15px;
-    font-size: 20px;
-    color: #37517e;
-}
-
 .pricing h4 {
-    font-size: 48px;
+    font-size: 40px;
     color: #37517e;
     font-weight: 400;
     font-family: "Jost", sans-serif;
-    margin-bottom: 25px;
-}
-
-.pricing h4 sup {
-    font-size: 28px;
-}
-
-.pricing h4 span {
-    color: #47b2e4;
-    font-size: 18px;
-    display: block;
-}
-
-.pricing ul {
-    padding: 20px 0;
-    list-style: none;
-    color: #999;
-    text-align: left;
-    line-height: 20px;
-}
-
-.pricing ul li {
-    padding: 10px 0 10px 30px;
-    position: relative;
-}
-
-.pricing ul i {
-    color: #28a745;
-    font-size: 24px;
-    position: absolute;
-    left: 0;
-    top: 6px;
-}
-
-.pricing ul .na {
-    color: #ccc;
-}
-
-.pricing ul .na i {
-    color: #ccc;
-}
-
-.pricing ul .na span {
-    text-decoration: line-through;
-}
-
-.pricing .buy-btn {
-    display: inline-block;
-    padding: 12px 35px;
-    border-radius: 50px;
-    color: #47b2e4;
-    transition: none;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Jost", sans-serif;
-    transition: 0.3s;
-    border: 1px solid #47b2e4;
-}
-
-.pricing .buy-btn:hover {
-    background: #47b2e4;
-    color: #fff;
+    margin-bottom: 20px;
 }
 
 .pricing .featured {
-    border-top-color: #47b2e4;
+    border-top-color: #85DC6D;
 }
 
-.pricing .featured .buy-btn {
-    background: #47b2e4;
-    color: #fff;
+.pricing .featured p {
+    text-align: justify;
 }
 
-.pricing .featured .buy-btn:hover {
-    background: #23a3df;
-}
-
-@media (max-width: 992px) {
-    .pricing .box {
-        max-width: 60%;
-        margin: 0 auto 30px auto;
-    }
-}
-
-@media (max-width: 767px) {
-    .pricing .box {
-        max-width: 80%;
-        margin: 0 auto 30px auto;
-    }
-}
-
-@media (max-width: 420px) {
-    .pricing .box {
-        max-width: 100%;
-        margin: 0 auto 30px auto;
-    }
+.pricing .featured hr {
+    border-width: 2px;
+    border-color: #46923C;
 }
 
 
@@ -1417,6 +1537,7 @@ section {
     float: left;
     width: 44px;
     height: 44px;
+    /*COLOR DE FONDO DE LOS ICONOS*/
     background: #EEFFEC;
     display: flex;
     justify-content: center;
@@ -1484,6 +1605,10 @@ section {
     background: #fff;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     color: #46923C;
+}
+
+.contact .php-email-form h4 {
+    padding-bottom: 0px;
 }
 
 .contact .php-email-form .form-group {
@@ -1589,6 +1714,149 @@ section {
     100% {
         transform: rotate(360deg);
     }
+}
+
+
+/*--------------------------------------------------------------
+# Alcalde Carabaya 
+--------------------------------------------------------------*/
+
+.alcalde {
+    background-color: #f3f4fa;
+}
+
+.alcalde .container {
+    padding-top: 70px;
+}
+
+.alcalde .row {
+    border-top: 3px solid #85DC6D;
+    border-bottom: 3px solid #85DC6D;
+    margin-left: 2px;
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.alcalde img {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.alcalde p {
+    padding: 0 0 10px 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-display: justify;
+    color: black;
+    text-align: justify;
+    font-family: 'Merienda', cursive;
+}
+
+.alcalde h4 {
+    padding: 0 0 0 60px;
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    /* COLOR DE LOS SUBTITULOS AL LADO DE LOS ICONOS*/
+    color: #46923C;
+}
+
+
+/*--------------------------------------------------------------
+# Organigrama 
+--------------------------------------------------------------*/
+
+.organigrama .row {
+    border-top: 3px solid #85DC6D;
+    border-bottom: 3px solid #85DC6D;
+    padding: 30px;
+    background: #fff;
+    margin-left: 2px;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.organigrama img {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.organigrama p {
+    padding-top: 50px;
+    padding: 0 0 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-display: justify;
+    color: black;
+    text-align: justify;
+    font-family: 'Courgette', cursive;
+}
+
+.organigrama h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    /* COLOR DE LOS SUBTITULOS AL LADO DE LOS ICONOS*/
+    color: #46923C;
+}
+
+
+/*--------------------------------------------------------------
+# Concejo Municipal 
+--------------------------------------------------------------*/
+
+.concejomunicipal {
+    background-color: #ffffff;
+}
+
+.concejomunicipal .row {
+    border-top: 3px solid #85DC6D;
+    border-bottom: 3px solid #85DC6D;
+    padding: 30px;
+    background: #fff;
+    margin-left: 2px;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.concejomunicipal img {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/*--------------------------------------------------------------
+# Ley Organica de Municipalidades
+--------------------------------------------------------------*/
+
+.leymuni {
+    padding: 50px 0;
+    background: #f3f4fa;
+    text-align: center;
+    font-size: 15px;
+    color: #444444;
+}
+
+.leymuni h4 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    color: #46923c;
 }
 
 
@@ -1735,62 +2003,9 @@ section {
     background: #46923C;
 }
 
-#footer .footer-newsletter {
-    padding: 50px 0;
-    background: #f3f5fa;
-    text-align: center;
-    font-size: 15px;
-    color: #444444;
-}
-
-#footer .footer-newsletter h4 {
-    font-size: 24px;
-    margin: 0 0 20px 0;
-    padding: 0;
-    line-height: 1;
-    font-weight: 600;
-    color: #37517e;
-}
-
-#footer .footer-newsletter form {
-    margin-top: 30px;
-    background: #fff;
-    padding: 6px 10px;
-    position: relative;
-    border-radius: 50px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
-    text-align: left;
-}
-
-#footer .footer-newsletter form input[type="email"] {
-    border: 0;
-    padding: 4px 8px;
-    width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type="submit"] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 20px;
-    background: #47b2e4;
-    color: #fff;
-    transition: 0.3s;
-    border-radius: 50px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#footer .footer-newsletter form input[type="submit"]:hover {
-    background: #209dd8;
-}
-
 #footer .footer-top {
     padding: 60px 0 30px 0;
-    background: #fff;
+    background: #a6e1f8;
 }
 
 #footer .footer-top .footer-contact {

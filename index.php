@@ -1,5 +1,6 @@
 <?php require("header.php") ?>
-  <!-- ======= Hero Section ======= -->
+  
+  <!-- ======= Hero Section ======= 
   <section id="hero" class="d-flex align-items-center">
 
     <div class="container">
@@ -11,10 +12,78 @@
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
           </div>
+
         </div>
+        
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          
         </div>
+        
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+  
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pic"><img src="assets/img/slider/alcalde2.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Prof. Fabio Vargas Huamantuco</h4>
+              <span><strong>ALCALDE</strong></span>
+              <p>GESTIÓN 2019-2022</p>
+            </div>
+          </div>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets\img\slider\slider_municarabaya_alcalde_01-600x238.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets\img\slider\slider_municarabaya_educacion_05-600x238.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets\img\slider\slider_municarabaya_folklor_03-600x238.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets\img\slider\slider_municarabaya_obras_06-600x238.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!--
+          <h1>Better Solutions For Your Business</h1>
+          <h2>We are team of talanted designers making websites with Bootstrap</h2>
+          <div class="d-lg-flex">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
+          </div>
+          -->
+
+        </div>
+        
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          
+        </div>
+        
       </div>
     </div>
 
@@ -145,6 +214,119 @@
       </div>
     </section><!-- End Why Us Section -->
 
+    <!-- ======= HISTORIA DE CARABAYA ======= -->
+    <section id="historia" class="historia">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>HISTORIA DE CARABAYA</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-12">
+            <p>
+              <img id="img1" src="assets\img\carabaya\mapa_carabaya.jpg" alt="Mapa de Carabaya">
+              Recordando, el hecho de 1875, cuando la antigua provincia de Carabaya es dividida políticamente en dos provincias hermanas, Sandia con su capital Sandia y Carabaya con su capital Macusani; este hecho trascendental, no podía pasar por desapersivido, por tal razón los ciudadanos Macusaneños y residentes en ciudades, celebramos con mucho entuciasmo el <strong>Aniversario, cada 5 de febrero.</strong> 
+              <br>
+              La historia nos cuenta que Carabaya y San Gabán eran provincias que jurisdiccionalmente junto con Ayaviri, Asillo y Atuncana pertenecían a la Audiencia de Charcas que en 1559 comprendía el Collao. En 1810 el contenido geográfico del Perú se modifica territorialmente, dividiendo al Perú en 8 Intendencias: Lima, Tarma, Cusco, Huancavelica, Huamanga, Arequipa, Trujillo y Puno. Este último dividido en los Partidos: entre ellos Azángaro, Carabaya, Lampa, Chucuito y Huancané que posteriormente se convirtieron en provincias. CARABAYA EN 1825.
+              <br>
+              Durante el Gobierno del Dictador Simón Bolívar a través del <strong> Decreto de Ley del 21 de Junio 1825 Carabaya es declarado Provincia de Puno. </strong> Año que : el Congreso de la República estableció también el Definitivo Escudo de Armas, el Estandarte Nacional, La Bandera y la Escarapela. Así mismo el 6 de agosto de este mismo año se proclama la Independencia de la hermana República de Bolivia. El 2 de mayo de 1854 el Presidente Ramón Castilla decreta una ley que en su Art. 2° describe la demarcación de las provincias de Puno. Donde aparece la Provincia de Carabaya y Sandia como una sola con el nombre de Provincia de Carabaya con su Capital Crucero.
+              <img id="img2" src="assets\img\carabaya\mapa02.jpg" alt="Mapa 02">
+              El 5 de Febrero de 1875 durante el gobierno de Don Manuel Pardo se promulgó la Ley que divide a la provincia de Carabaya en dos provincias definida en tres Artículos: <strong>Art. 1° Establece la División de Carabaya en dos provincias: Carabaya y Sandia. Art.2° Carabaya con nueve Distritos: Macusani, Ayapata, Crucero, Corani, Ollachea, Coaza, Usicayos, Ituata y Ajoyani. Art.3° Sandia con 7 Distritos: Pharas, Patambuco, Sandia, Cuyo cuyo, Sina, Quiaca y Photo.</strong>
+              <br>
+              Este 5 de febrero no celebramos la división de la Provincia de Carabaya en dos provincias hermanas. Hablamos también del potencial de Macusani: Por su riqueza ganadera, Minera, Turística y si hablamos del Potencial de todos sus distritos más agregamos la riqueza de la flora y fauna de la selva de San Gabán y las sejas de Selva de Ayapata, Ollachea, Coaza e  Ituata. La riqueza Hidrobiológica la trucha que se encuentra en las lagunas y ríos de todo Carabaya. Todos estos recursos Naturales esperan de manera impaciente la intervención de la tecnología moderna para explotación de la inmensidad de recursos y ponerlos al servicio de la humanidad y de los intereses de la provincia de Carabaya y del Departamento de Puno.
+            </p>
+            
+          </div>
+          
+        </div>
+
+      </div>
+    </section>
+    <!-- FIN HISTORIA DE CARABAYA -->
+
+    <!-- HIMNO A CARABAYA -->
+    <section id="himno" class="himno">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>HIMNO A CARABAYA</h2>
+        </div>
+
+          <div class="row content">
+            <div class="col-lg-12">
+              <h3>CORO</h3>
+              <hr>
+              <p>
+                Carabaya tierra generosa<br>
+                capital alpaquera del mundo<br>
+                tus entrañas de oro y uranio<br>
+                son la joya y el orgullo del Perú<br>
+              </p>
+            <div class="row estrofas">
+              <div class="col-lg-12"><h3>ESTROFAS</h3><hr></div>
+              
+            </div>
+            <div class="row estrofas">
+              <div class="col-lg-4 d-flex align-items-stretch">
+                
+                <p>
+                  De Qarwaya proviene tu nombre<br>
+                  en parajes de Mallcusayana<br>
+                  prometernos forjar tu grandeza<br>
+                  y sea bastión y emporio del Perú<br>
+                  Juventud esperanza de mañana<br>
+                  laboremos sin vacilaciones,<br>
+                  nuestra fuerza es hoy San Gabán<br>
+                  y requiere hombres de mucho valor<br>
+                </p>
+                
+              </div>
+
+              <div class="col-lg-4 d-flex align-items-stretch">
+                <p>
+                  Aricoma y el gran Allinccapac<br>
+                  resplandecen hasta el Candamo,<br>
+                  implorando al mundo lo conserven<br>
+                  que es reserva de la humanidad<br>
+                  la ambición de los conquistadores<br>
+                  profanó tu abundante riqueza,<br>
+                  mutilado brazo de Tupac Amaru<br>
+                  blande la espada de la libertad.<br>
+                </p>
+                
+              </div>
+
+              <div class="col-lg-4 d-flex align-items-stretch">
+                <p>
+                  Macusani, Ayapata, Coaza,<br>
+                  San Gabán, Ituata, Corani,<br>
+                  Ollachea, Ajoyani, Usicayos<br>
+                  y Crucero forman la hermandad,<br>
+                  flameando alto la blanca y verde,<br>
+                  saludemos a la noble tierra<br>
+                  que brinda al turismo mundial<br>
+                  sus recursos y gran corazón.<br>
+                </p>
+                
+              </div>
+              
+            </div>
+            <div class="row estrofas">
+              <div class="col-lg-12"><h3>NOTAS MUSICALES<hr> </h3></div> 
+            </div>
+            <div class="row justify-content-md-center estrofas">
+              <div class="col-md-auto"><img src="assets\img\carabaya\himno.jpg" class="
+              img-fluid" alt="himno"></div> 
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- FIN HIMNO A CARABAYA -->
+
+    
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
@@ -375,29 +557,30 @@
       </div>
     </section><!-- End Portfolio Section -->
 
+
+    <!-- SECCION DISTRITOS -->
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>DISTRITOS</h2>
+          <p>La provincia de Carabaya tiene una extensión territorial de 12,266.4 Km2, dentro de los cuales se hallan distribuidos diez distritos: Ajoyani, Ayapata, Coasa, Corani, Crucero, Ituata, Macusani, Ollachea, San Gabán y Usicayos</p>
         </div>
 
         <div class="row">
-
+          
           <div class="col-lg-6">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/escudos/ajoyani_ps.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <h4>AJOYANI</h4>
+                <span><strong>"Capital Ganadera de Carabaya"</strong></span>
+                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="https://www.muniajoyani.gob.pe/" target="_blank"><i class="icofont-web"></i></a>
+                  <a href="https://www.facebook.com/muniajoyani2020" target="_blank"><i class="ri-facebook-fill"></i></a>
+                  <a href="https://es.wikipedia.org/wiki/Distrito_de_Ajoyani" target="_blank"><i class='bx bxl-wikipedia'></i> </a>
                 </div>
               </div>
             </div>
@@ -405,16 +588,15 @@
 
           <div class="col-lg-6 mt-4 mt-lg-0">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/escudos/ayapata_ps.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>AYAPATA</h4>
+                <span><strong>"Capital Ganadera de Carabaya"</strong></span>
                 <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="https://www.gob.pe/municipalidad-distrital-de-ayapata-md-ayapata" target="_blank"><i class="icofont-web"></i></a>
+                  <a href="https://www.facebook.com/Ayapata2020/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                  <a href="https://es.wikipedia.org/wiki/Distrito_de_Ayapata" target="_blank"><i class='bx bxl-wikipedia'></i></a>
                 </div>
               </div>
             </div>
@@ -422,16 +604,15 @@
 
           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/escudos/coasa_ps.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <h4>COASA</h4>
+                <span><strong>"Tierra de Músicos, Toreros y Martín G. Chambi Jiménez"</strong></span>
+                <p>Quisquam </p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="https://www.gob.pe/municipalidad-distrital-de-coasa" target="_blank"><i class="icofont-web"></i></a>
+                  <a href="https://www.facebook.com/Municipalidad-Distrital-de-Coasa-gestion-2019-2022-2360925187561027/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                  <a href="https://es.wikipedia.org/wiki/Distrito_de_Coasa" target="_blank"><i class='bx bxl-wikipedia'></i></a>
                 </div>
               </div>
             </div>
@@ -439,16 +620,117 @@
 
           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/escudos/corani_ps.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
+                <h4>CORANI</h4>
+                <span> <strong>"Cuna de las Rondas Campesinas"</strong> </span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href="http://municorani.gob.pe/" target="_blank"><i class="icofont-web"></i></a>
+                  <a href="https://www.facebook.com/municoranicarabaya/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                  <a href="https://es.wikipedia.org/wiki/Distrito_de_Corani" target="_blank"><i class='bx bxl-wikipedia'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/escudos/crucero_ps.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>CRUCERO</h4>
                 <span>Accountant</span>
                 <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
                 <div class="social">
+                  <a href="https://www.gob.pe/municrucero" target="_blank"><i class="icofont-web"></i></a>
+                  <a href="https://www.facebook.com/Municipalidad-Distrital-Crucero-1595353903930373/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                  <a href="https://es.wikipedia.org/wiki/Distrito_de_Crucero" target="_blank"><i class='bx bxl-wikipedia'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/escudos/ituata_ps.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>ITUATA</h4>
+                <span>Accountant</span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href="https://www.gob.pe/municipalidad-distrital-de-ituata" target="_blank"><i class="icofont-web"></i></a>
+                  <a href="https://www.facebook.com/Municipalidad-Distrital-de-Ituata-Carabaya-2279931305399195/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                  <a href="https://es.wikipedia.org/wiki/Distrito_de_Ituata" target="_blank"><i class='bx bxl-wikipedia'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/escudos/macusani_ps.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>MACUSANI</h4>
+                <span><strong>"Capital Alpaquera del Perú y del Mundo"</strong></span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href="index.php" target="_blank"><i class="icofont-web"></i></a>
+                  <a href="https://www.facebook.com/Municipalidad-Provincial-Carabaya-Macusani-800622523612504/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                  <a href="https://es.wikipedia.org/wiki/Distrito_de_Macusani" target="_blank"><i class='bx bxl-wikipedia'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/escudos/ollachea_ps.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>OLLACHEA</h4>
+                <span>Accountant</span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href="https://www.gob.pe/municipalidad-distrital-ollachea-mdo" target="_blank"><i class="icofont-web"></i></a>
+                  <a href="https://www.facebook.com/MuniOllachea2019/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                  <a href="https://es.wikipedia.org/wiki/Distrito_de_Ollachea" target="_blank"><i class='bx bxl-wikipedia'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/escudos/sangaban_ps.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>SAN GABAN</h4>
+                <span>Accountant</span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href="https://www.gob.pe/munisangaban#informacion" target="_blank"><i class="icofont-web"></i></a>
+                  <a href="https://www.facebook.com/municipalidadsangaban/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                  <a href="https://es.wikipedia.org/wiki/Distrito_de_San_Gab%C3%A1n" target="_blank"><i class='bx bxl-wikipedia'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/escudos/usicayos_ps.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>USICAYOS</h4>
+                <span>Accountant</span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href="https://www.gob.pe/municipalidad-distrital-de-usicayos-mdusicayos" target="_blank"><i class="icofont-web"></i></a>
+                  <a href="https://www.facebook.com/Municipalidad-Distrital-de-Usicayos-105972261172701/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                  <a href="https://es.wikipedia.org/wiki/Distrito_de_Usicayos" target="_blank"><i class='bx bxl-wikipedia'></i></a>
+                  <!--
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
                   <a href=""><i class="ri-instagram-fill"></i></a>
                   <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  -->
                 </div>
               </div>
             </div>
@@ -458,67 +740,6 @@
 
       </div>
     </section><!-- End Team Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>Free Plan</h3>
-              <h4><sup>$</sup>0<span>per month</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <a href="#" class="buy-btn">Get Started</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="box featured">
-              <h3>Business Plan</h3>
-              <h4><sup>$</sup>29<span>per month</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-              <a href="#" class="buy-btn">Get Started</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <h3>Developer Plan</h3>
-              <h4><sup>$</sup>49<span>per month</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-              <a href="#" class="buy-btn">Get Started</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
@@ -588,7 +809,7 @@
 
         <div class="section-title">
           <h2>Contáctanos</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          
         </div>
 
         <div class="row">
@@ -645,9 +866,11 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-
+            
             <form action="forms/contacto.php" method="post" class="php-email-form" onsubmit="return validar();" >
               <div class="form-row">
+                <h4>Puedes Enviarnos tus Consultas<hr></h4>
+              
                 <div class="form-group col-md-6">
                   <label for="name">Nombre Completo: </label>
                   <input type="text" name="nombre" class="form-control" id="nombre" data-msg="Ingrese al menos 4 caracteres"  required/>
@@ -693,7 +916,7 @@
 
       </div>
     </section><!-- End Contact Section -->
-
+    
   </main><!-- End #main -->
 
 <?php require("footer.php") ?>
