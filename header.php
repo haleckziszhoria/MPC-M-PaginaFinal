@@ -33,12 +33,6 @@
   <!-- Leaflet css -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
 
-  <!-- =======================================================
-  * Template Name: Arsha - v2.2.0
-  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -52,7 +46,7 @@
           <a href="mailto:mesadepartes@municarabaya.gop.pe"><i class="icofont-envelope"></i>mesadepartes@municarabaya.gop.pe</a>
         </div>
         <div class="social-links float-right">
-          <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+          <a href="#" class="twitter"><i class="icofont-whatsapp"></i></a>
           <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
           <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
           <a href="#" class="skype"><i class="icofont-skype"></i></a>
@@ -72,16 +66,16 @@
         <nav class="nav-menu d-none d-lg-block">
           <ul>
             <li class="active"><a href="index.php"><i class="icofont-ui-laoding"></i>&nbsp;INICIO</a></li>
-            <li class="drop-down"><a href="#about"><i class="icofont-unity-hand"></i>&nbsp;CARABAYA</a>
+            <li class="drop-down"><a href="carabaya.php"><i class="icofont-unity-hand"></i>&nbsp;CARABAYA</a>
               <ul>
-                <li><a href="municipalidad.php#alcalde">Distritos de Carabaya</a></li>
-                <li><a href="municipalidad.php#organigrama">Historia de Carabaya</a></li>
-                <li><a href="municipalidad.php#pricing">Himno a Carabaya</a></li>
-                <li><a href="municipalidad.php#concejomunicipal">Turismo en Carabaya</a></li>
-                <li><a href="municipalidad.php#leymuni">Ley Orgánica de Municipalidades</a></li>
+                <li><a href="carabaya.php#team">Distritos de Carabaya</a></li>
+                <li><a href="carabaya.php#turismo">Turismo en Carabaya</a></li>
+                <li><a href="carabaya.php#himno">Himno a Carabaya</a></li>
+                <li><a href="carabaya.php#historia">Historia de Carabaya</a></li>
+                
               </ul>
             </li>
-            <li class="active drop-down"><a href="municipalidad.php"><i class="icofont-university"></i>&nbsp;MUNICIPALIDAD</a>
+            <li class="drop-down"><a href="municipalidad.php"><i class="icofont-university"></i>&nbsp;MUNICIPALIDAD</a>
               <ul>
                 <li><a href="municipalidad.php#alcalde">Alcalde de Carabaya</a></li>
                 <li><a href="municipalidad.php#organigrama">Organigrama Municipal</a></li>
@@ -90,15 +84,21 @@
                 <li><a href="municipalidad.php#leymuni">Ley Orgánica de Municipalidades</a></li>
               </ul>
             </li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#team">Distritos</a></li>
-            
-            <li><a href="#contact">CONTÁCTANOS</a></li>
+            <li class="drop-down"><a href="gestionmuni.php"><i class="icofont-gears"></i>&nbsp;GESTIÓN MUNICIPAL</a>
+              <ul>
+                <li><a href="gestionmuni.php#ordenanzasmuni">Ordenanzas Municipales</a></li>
+                <li><a href="gestionmuni.php#resolalcaldia">Resoluciones de Alcaldía</a></li>
+                <li><a href="gestionmuni.php#recom_oci">Recomendaciones OCI</a></li>
+                <li><a href="gestionmuni.php#tupa">TUPA</a></li>
+                <li><a href="gestionmuni.php#licencias">Licencias Municipales</a></li>
+              </ul>
+            </li>
+            <li><a href="#portfolio">PUBLICACIONES</a></li>
 
           </ul>
         </nav><!-- .nav-menu -->
 
-        <a href="#about" class="get-started-btn scrollto">EMPECEMOs!!</a>
+        <a href="index.php#contact" class="get-started-btn scrollto"><i class="icofont-email"></i>&nbsp;CONTÁCTANOS</a>
 
       </div>
     </header><!-- End Header -->

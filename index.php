@@ -44,6 +44,7 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -61,11 +62,11 @@
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+              <span class="sr-only">Anterior</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+              <span class="sr-only">Siguiente</span>
             </a>
           </div>
           <!--
@@ -93,37 +94,51 @@
 
     <!-- ======= Cliens Section ======= -->
     <section id="cliens" class="cliens section-bg">
+    
       <div class="container">
-
-        <div class="row" data-aos="zoom-in">
+        <hr>
+        <div class="row" >
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <a href="https://www.gob.pe/reniec" target="_blank">
+            <img src="assets/img/gobinstituciones/reniec2.jpg" class="img-fluid" alt="">
+            </a>
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <a href="http://www.sunat.gob.pe/" target="_blank">
+            <img src="assets/img/gobinstituciones/sunat2.jpg" class="img-fluid" alt="">
+            </a>           
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <a href="https://www.gob.pe/sunarp" target="_blank">
+            <img src="assets/img/gobinstituciones/sunarp2.jpg" class="img-fluid" alt="">
+            </a>
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <a href="https://www.gob.pe/indeci" target="_blank">
+            <img src="assets/img/gobinstituciones/indeci2.jpg" class="img-fluid" alt="">
+            </a>       
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            <a href="https://www.pronabec.gob.pe/" target="_blank">
+            <img src="assets/img/gobinstituciones/pronabec2.jpg" class="img-fluid" alt="">
+            </a>
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            <a href="https://www.sunass.gob.pe/" target="_blank">
+            <img src="assets/img/gobinstituciones/sunass2.jpg" class="img-fluid" alt="">
+            </a>
           </div>
 
         </div>
-
+        <hr>
       </div>
+      
     </section><!-- End Cliens Section -->
 
     <!-- ======= About Us Section ======= -->
@@ -131,7 +146,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About Us</h2>
+          <h2>SOBRE NOSOTROS</h2>
         </div>
 
         <div class="row content">

@@ -294,7 +294,7 @@
           <div class="col-lg-6">
             <h4>LEY ORGÁNICA DE MUNICIPALIDADES</h4>
             <p>Aquí puedes descargar el archivo en formato PDF</p>
-            <button type="button" class="btn btn-outline-success btn-lg rounded-pill">Descargar</button>
+            <a href="assets\img\carabaya\leymuni.pdf"><button type="button" class="btn btn-outline-success btn-lg rounded-pill">Descargar</button></a>
             <!--<input type="submit" value="Descargar">
             <!--<button value="Descargar"></button>-->
           </div>
